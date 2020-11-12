@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  background-color: purple;
+}
+
+.ul-nav {
+  display: flex;
+  flex-direction: row;
+}
+#yahoo-logo {
+  width: 70px;
+  height: 50px;
+}
+
+#profile-pic {
+  width: 50px;
+  margin-left: auto;
+}
+
+.prof-pic {
+  width: 100%;
+  display: grid;
+  justify-content: end;
+}
+
+#mid-pic {
+  width: 100vw;
+}
+
+.mid-nav {
+  display: flex;
+  justify-content: center;
+}
+
+#bot-pic {
+  width: 100vw;
+}
